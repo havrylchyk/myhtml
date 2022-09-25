@@ -1,0 +1,31 @@
+ul
+{
+    display: flex;
+    list-style: none;
+    background: #f0f0f0;  
+}
+li
+{
+    width: 2rem;
+    display: block;
+    text-align: center; 
+    list-style-type: none;
+    text-decoration: none;
+    color: brown;
+    border-bottom:  3px  solid rgb(113, 111, 111) ; 
+}
+li > a
+{ 
+ 
+    display: block;
+    text-align: center; 
+    list-style-type: none;
+    text-decoration: none;
+    color: brown; 
+}
+li:hover 
+{
+    color:black ;
+    background-color: #cdcbcd;
+    border-bottom: 3px  solid #454545;
+}
